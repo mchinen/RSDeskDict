@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF88C34217C67D41005957E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF88C34117C67D41005957E1 /* Cocoa.framework */; };
+		CF88C34C17C67D41005957E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF88C34A17C67D41005957E1 /* InfoPlist.strings */; };
+		CF88C34E17C67D41005957E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF88C34D17C67D41005957E1 /* main.m */; };
+		CF88C35217C67D41005957E1 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF88C35017C67D41005957E1 /* Credits.rtf */; };
+		CF88C35517C67D41005957E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF88C35417C67D41005957E1 /* AppDelegate.m */; };
+		CF88C35817C67D42005957E1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF88C35617C67D42005957E1 /* MainMenu.xib */; };
+		CF88C36017C67D42005957E1 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF88C35F17C67D42005957E1 /* SenTestingKit.framework */; };
+		CF88C36117C67D42005957E1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF88C34117C67D41005957E1 /* Cocoa.framework */; };
+		CF88C36917C67D42005957E1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF88C36717C67D42005957E1 /* InfoPlist.strings */; };
+		CF88C36C17C67D42005957E1 /* RSDeskDictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF88C36B17C67D42005957E1 /* RSDeskDictTests.m */; };
+		CF88C37617C8653E005957E1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF88C37517C8653E005957E1 /* Carbon.framework */; };
+		CF88C37A17C9DB2E005957E1 /* HistoryModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CF88C37817C9DB2E005957E1 /* HistoryModel.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF88C36217C67D42005957E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF88C33617C67D41005957E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF88C33D17C67D41005957E1;
+			remoteInfo = RSDeskDict;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF88C33E17C67D41005957E1 /* RSDeskDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSDeskDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88C34117C67D41005957E1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF88C34417C67D41005957E1 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF88C34517C67D41005957E1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF88C34617C67D41005957E1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF88C34917C67D41005957E1 /* RSDeskDict-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSDeskDict-Info.plist"; sourceTree = "<group>"; };
+		CF88C34B17C67D41005957E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF88C34D17C67D41005957E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF88C34F17C67D41005957E1 /* RSDeskDict-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSDeskDict-Prefix.pch"; sourceTree = "<group>"; };
+		CF88C35117C67D41005957E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF88C35317C67D41005957E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF88C35417C67D41005957E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF88C35717C67D42005957E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF88C35E17C67D42005957E1 /* RSDeskDictTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RSDeskDictTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF88C35F17C67D42005957E1 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF88C36617C67D42005957E1 /* RSDeskDictTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSDeskDictTests-Info.plist"; sourceTree = "<group>"; };
+		CF88C36817C67D42005957E1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF88C36A17C67D42005957E1 /* RSDeskDictTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSDeskDictTests.h; sourceTree = "<group>"; };
+		CF88C36B17C67D42005957E1 /* RSDeskDictTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSDeskDictTests.m; sourceTree = "<group>"; };
+		CF88C37517C8653E005957E1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = System/Library/Frameworks/Carbon.framework; sourceTree = SDKROOT; };
+		CF88C37917C9DB2E005957E1 /* HistoryModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HistoryModel.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF88C33B17C67D41005957E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C37617C8653E005957E1 /* Carbon.framework in Frameworks */,
+				CF88C34217C67D41005957E1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88C35A17C67D42005957E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C36017C67D42005957E1 /* SenTestingKit.framework in Frameworks */,
+				CF88C36117C67D42005957E1 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF88C33517C67D41005957E1 = {
+			isa = PBXGroup;
+			children = (
+				CF88C37517C8653E005957E1 /* Carbon.framework */,
+				CF88C34717C67D41005957E1 /* RSDeskDict */,
+				CF88C36417C67D42005957E1 /* RSDeskDictTests */,
+				CF88C34017C67D41005957E1 /* Frameworks */,
+				CF88C33F17C67D41005957E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF88C33F17C67D41005957E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C33E17C67D41005957E1 /* RSDeskDict.app */,
+				CF88C35E17C67D42005957E1 /* RSDeskDictTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF88C34017C67D41005957E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C34117C67D41005957E1 /* Cocoa.framework */,
+				CF88C35F17C67D42005957E1 /* SenTestingKit.framework */,
+				CF88C34317C67D41005957E1 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF88C34317C67D41005957E1 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C34417C67D41005957E1 /* AppKit.framework */,
+				CF88C34517C67D41005957E1 /* CoreData.framework */,
+				CF88C34617C67D41005957E1 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF88C34717C67D41005957E1 /* RSDeskDict */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C35317C67D41005957E1 /* AppDelegate.h */,
+				CF88C35417C67D41005957E1 /* AppDelegate.m */,
+				CF88C35617C67D42005957E1 /* MainMenu.xib */,
+				CF88C37817C9DB2E005957E1 /* HistoryModel.xcdatamodeld */,
+				CF88C34817C67D41005957E1 /* Supporting Files */,
+			);
+			path = RSDeskDict;
+			sourceTree = "<group>";
+		};
+		CF88C34817C67D41005957E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C34917C67D41005957E1 /* RSDeskDict-Info.plist */,
+				CF88C34A17C67D41005957E1 /* InfoPlist.strings */,
+				CF88C34D17C67D41005957E1 /* main.m */,
+				CF88C34F17C67D41005957E1 /* RSDeskDict-Prefix.pch */,
+				CF88C35017C67D41005957E1 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF88C36417C67D42005957E1 /* RSDeskDictTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C36A17C67D42005957E1 /* RSDeskDictTests.h */,
+				CF88C36B17C67D42005957E1 /* RSDeskDictTests.m */,
+				CF88C36517C67D42005957E1 /* Supporting Files */,
+			);
+			path = RSDeskDictTests;
+			sourceTree = "<group>";
+		};
+		CF88C36517C67D42005957E1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF88C36617C67D42005957E1 /* RSDeskDictTests-Info.plist */,
+				CF88C36717C67D42005957E1 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF88C33D17C67D41005957E1 /* RSDeskDict */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88C36F17C67D42005957E1 /* Build configuration list for PBXNativeTarget "RSDeskDict" */;
+			buildPhases = (
+				CF88C33A17C67D41005957E1 /* Sources */,
+				CF88C33B17C67D41005957E1 /* Frameworks */,
+				CF88C33C17C67D41005957E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSDeskDict;
+			productName = RSDeskDict;
+			productReference = CF88C33E17C67D41005957E1 /* RSDeskDict.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF88C35D17C67D42005957E1 /* RSDeskDictTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF88C37217C67D42005957E1 /* Build configuration list for PBXNativeTarget "RSDeskDictTests" */;
+			buildPhases = (
+				CF88C35917C67D42005957E1 /* Sources */,
+				CF88C35A17C67D42005957E1 /* Frameworks */,
+				CF88C35B17C67D42005957E1 /* Resources */,
+				CF88C35C17C67D42005957E1 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF88C36317C67D42005957E1 /* PBXTargetDependency */,
+			);
+			name = RSDeskDictTests;
+			productName = RSDeskDictTests;
+			productReference = CF88C35E17C67D42005957E1 /* RSDeskDictTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF88C33617C67D41005957E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = RS;
+			};
+			buildConfigurationList = CF88C33917C67D41005957E1 /* Build configuration list for PBXProject "RSDeskDict" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF88C33517C67D41005957E1;
+			productRefGroup = CF88C33F17C67D41005957E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF88C33D17C67D41005957E1 /* RSDeskDict */,
+				CF88C35D17C67D42005957E1 /* RSDeskDictTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF88C33C17C67D41005957E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C34C17C67D41005957E1 /* InfoPlist.strings in Resources */,
+				CF88C35217C67D41005957E1 /* Credits.rtf in Resources */,
+				CF88C35817C67D42005957E1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88C35B17C67D42005957E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C36917C67D42005957E1 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF88C35C17C67D42005957E1 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF88C33A17C67D41005957E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C34E17C67D41005957E1 /* main.m in Sources */,
+				CF88C35517C67D41005957E1 /* AppDelegate.m in Sources */,
+				CF88C37A17C9DB2E005957E1 /* HistoryModel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF88C35917C67D42005957E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF88C36C17C67D42005957E1 /* RSDeskDictTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF88C36317C67D42005957E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF88C33D17C67D41005957E1 /* RSDeskDict */;
+			targetProxy = CF88C36217C67D42005957E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF88C34A17C67D41005957E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88C34B17C67D41005957E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF88C35017C67D41005957E1 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88C35117C67D41005957E1 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF88C35617C67D42005957E1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88C35717C67D42005957E1 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CF88C36717C67D42005957E1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF88C36817C67D42005957E1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF88C36D17C67D42005957E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF88C36E17C67D42005957E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF88C37017C67D42005957E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSDeskDict/RSDeskDict-Prefix.pch";
+				INFOPLIST_FILE = "RSDeskDict/RSDeskDict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF88C37117C67D42005957E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSDeskDict/RSDeskDict-Prefix.pch";
+				INFOPLIST_FILE = "RSDeskDict/RSDeskDict-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF88C37317C67D42005957E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSDeskDict.app/Contents/MacOS/RSDeskDict";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSDeskDict/RSDeskDict-Prefix.pch";
+				INFOPLIST_FILE = "RSDeskDictTests/RSDeskDictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF88C37417C67D42005957E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/RSDeskDict.app/Contents/MacOS/RSDeskDict";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSDeskDict/RSDeskDict-Prefix.pch";
+				INFOPLIST_FILE = "RSDeskDictTests/RSDeskDictTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF88C33917C67D41005957E1 /* Build configuration list for PBXProject "RSDeskDict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88C36D17C67D42005957E1 /* Debug */,
+				CF88C36E17C67D42005957E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF88C36F17C67D42005957E1 /* Build configuration list for PBXNativeTarget "RSDeskDict" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88C37017C67D42005957E1 /* Debug */,
+				CF88C37117C67D42005957E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF88C37217C67D42005957E1 /* Build configuration list for PBXNativeTarget "RSDeskDictTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF88C37317C67D42005957E1 /* Debug */,
+				CF88C37417C67D42005957E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CF88C37817C9DB2E005957E1 /* HistoryModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CF88C37917C9DB2E005957E1 /* HistoryModel.xcdatamodel */,
+			);
+			currentVersion = CF88C37917C9DB2E005957E1 /* HistoryModel.xcdatamodel */;
+			path = HistoryModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CF88C33617C67D41005957E1 /* Project object */;
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="11G63" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="DictEntryAccess" syncable="YES">
+        <attribute name="entryTitle" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="importance" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="inputString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="timesVisited" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="dictionary" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Dictionary" syncable="YES"/>
+    </entity>
+    <entity name="Dictionary" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DictEntryAccess" positionX="-594" positionY="-117" width="128" height="150"/>
+        <element name="Dictionary" positionX="-830" positionY="-108" width="128" height="60"/>
+    </elements>
+</model>
