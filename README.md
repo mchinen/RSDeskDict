@@ -1,0 +1,4 @@
+RSDeskDict
+==========
+
+Mac Dictionary prototype 
